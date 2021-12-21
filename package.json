@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "lint": "npx eslint --fix",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
